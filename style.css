@@ -1,0 +1,21 @@
+#people {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.results {
+    padding: 10px;
+    background-color:rgba(223, 209, 209, 0.514);
+    border-radius: 5px
+    
+}
+
+.results:hover {
+    background-color:rgba(122, 114, 114, 0.514);
+  }
+
+  .email {
+      text-decoration: underline;
+      text-decoration-color: rgb(101, 101, 204);
+      color: rgb(34, 127, 202);
+  }
